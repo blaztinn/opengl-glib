@@ -1,0 +1,9 @@
+gl.spec
+gl.tm
+enum.spec
+enumext.spec
+
+GL-1.0.typelib
+GL-1.0.gir
+
+.deps

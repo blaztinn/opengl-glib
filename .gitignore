@@ -1,0 +1,16 @@
+*.[oa]
+*~
+*.stamp
+*.in
+*.gz
+
+Makefile
+
+autom4te.cache
+build-aux
+configure
+config.log
+config.status
+aclocal.m4
+config.h
+stamp-h1
