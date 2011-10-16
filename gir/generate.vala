@@ -672,14 +672,17 @@ class Parse {
 				comment_args_str += comment_arg_str + "\n";
 			}
 			
+			var transfer = " * Returns: (transfer full):\n";
+			
 			//gtk-doc coment
 			content += ("/**\n" +
 						" * %s:\n" +
 						"%s" +
-						" * Returns: (transfer none):\n" +
+						"%s" +
 						"*/\n").printf(
 					mangle_function(function.name),
-					comment_args_str);
+					comment_args_str,
+					transfer);
 			
 			//function declaration
 			if(args_str.length > 0) {

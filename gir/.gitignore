@@ -3,6 +3,9 @@ gl.tm
 enum.spec
 enumext.spec
 
+generate
+generate.c
+gl.h
 GL-1.0.typelib
 GL-1.0.gir
 
